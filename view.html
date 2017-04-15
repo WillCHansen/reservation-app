@@ -65,6 +65,58 @@
 
 <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
 <script type="text/javascript">
+// two function using AJAX TO GET table json and other function to reservations
+
+	var getCurrentReservations = function() {
+		$.getJSON("localhost:3000/api/tables", function(data) {
+			console.log(data);
+
+		}); 
+	
+	};
+
+	getCurrentReservations();
+	 	
+
+    //     $.ajax({
+    //         type: 'GET',
+    //         url: 'http://http://localhost:3000/view',
+    //         dataType: "jsonp",
+    //         crossDomain: true,
+    //         success: function (msg) {
+
+    //             alert("success");
+
+    //         },
+    //         error: function (request, status, error) {
+
+    //             alert(error);
+    //         }
+    //     });
+    // });
+
+	var getCurrentWaitingList = function() {};
+	 
+
+    //     $.ajax({
+    //         type: 'GET',
+    //         url: 'http://http://localhost:3000/view',
+
+    //         dataType: "jsonp",
+
+    //         crossDomain: true,
+    //         success: function (msg) {
+
+    //             alert("success");
+
+    //         },
+    //         error: function (request, status, error) {
+
+    //             alert(error);
+    //         }
+    //     });
+    // });
+
 
 
 

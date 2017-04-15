@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WillCHansen/reservation-app/issues"
   },
-  "homepage": "https://github.com/WillCHansen/reservation-app#readme"
+  "homepage": "https://github.com/WillCHansen/reservation-app#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
